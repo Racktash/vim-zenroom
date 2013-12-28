@@ -1,6 +1,6 @@
 This is my fork of Vimroom which includes following:
 
-* A special mode for editing Markdown and reStructuredText. It's highly inspired by  [iA Writer]:(http://writer.pro/)
+* A special mode for editing Markdown and reStructuredText. It's highly inspired by  [iA Writer](http://writer.pro/)
 * Optimizations for [my vimrc](https://github.com/amix/vimrc)
 
 Pelase read more here [
