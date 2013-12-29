@@ -1,10 +1,13 @@
-This is my fork of Vimroom which includes following:
+This is my fork of vimroom which includes following:
 
 * A special mode for editing Markdown and reStructuredText. It's highly inspired by  [iA Writer](http://writer.pro/)
 * Optimizations for [my vimrc](https://github.com/amix/vimrc)
 
 Please read more here [
-zenroom for Vim: Focsuing only on the essential](http://amix.dk/blog/post/19744#zenroom-for-Vim-Focsuing-only-on-the-essential).
+zenroom for Vim: Focusing only on the essential](http://amix.dk/blog/post/19744#zenroom-for-Vim-Focsuing-only-on-the-essential).
+
+**Important:** A new version is out that's based on Goyo.vim. It's not a fork
+of vimroom. Get it at [vim-zenroom2](https://github.com/amix/vim-zenroom2)!
 
 
 ## Editing code
