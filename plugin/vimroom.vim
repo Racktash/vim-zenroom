@@ -235,9 +235,11 @@ function! <SID>VimroomToggle()
         set nowrap
         set nolinebreak
 
-        " Enable AirLine
-        exec("silent AirlineToggle")
-        exec("silent AirlineRefresh")
+        if exists( "*AirlineToggle" )
+            " Enable AirLine
+            exec("silent AirlineToggle")
+            exec("silent AirlineRefresh")
+        endif
     else
         if s:is_the_screen_wide_enough()
             let is_mark_or_rst = &filetype == "markdown" || &filetype == "rst" || &filetype == "text"
@@ -246,8 +248,10 @@ function! <SID>VimroomToggle()
                 call s:markdown_room()
             endif
             
-            " Disable AirLine
-            exec("silent AirlineToggle")
+            if exists( "*AirlineToggle" )
+                " Disable AirLine
+                exec("silent AirlineToggle")
+            endif
 
             let s:active = 1
             let s:sidebar = s:sidebar_size()
