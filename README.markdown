@@ -9,6 +9,9 @@ zenroom for Vim: Focusing only on the essential](http://amix.dk/blog/post/19744#
 **Important:** A new version is out that's based on Goyo.vim. It's not a fork
 of vimroom. Get it at [vim-zenroom2](https://github.com/amix/vim-zenroom2)!
 
+## Usage
+
+Use the standard vimroom mapping `<leader>V` to toggle it.
 
 ## Editing code
 
