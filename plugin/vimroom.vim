@@ -106,7 +106,7 @@ endif
 " Save the current `textwidth'` value for reset later
 let s:save_textwidth = ""
 if exists( "&textwidth'" )
-    let s:save_textwidth' = &textwidth'
+    let s:save_textwidth = &textwidth
 endif
 
 " Save the current `showtabline` value for reset later
